@@ -3,6 +3,10 @@ Sample app with spring boot<br />
 <br />
 To build the project cd to project dir and run below command<br />
 mvn clean compile package install -Dmaven.test.skip=true -P pro<br />
+
+To build the project after first build you can use below command<br />
+mvn clean compile package install -o -Dmaven.test.skip=true -P pro<br />
+
 <br />
 to call load method use below curl command:<br />
 curl "http://localhost:8081/chatroom/message/load/0"<br />
