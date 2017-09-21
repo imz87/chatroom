@@ -16,5 +16,5 @@ curl "http://localhost:8081/chatroom/message/save/1392/yes"<br />
 <br />
 to ssh to spring boot shell use below command and give him the spring boot password:<br />
 ssh user@localhost -p 2000<br />
-
+<br />
 For installation cp target/gs-spring-boot-distribution.dir/* to your server and afterward run start.bat file.
