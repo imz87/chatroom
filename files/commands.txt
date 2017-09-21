@@ -1,0 +1,4 @@
+mvn clean compile package install -o -Dmaven.test.skip=true -P pro
+curl "http://localhost:8081/chatroom/message/load/0"
+curl "http://localhost:8081/chatroom/message/save/1392/yes"
+ssh user@localhost -p 2000
